@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-firebase
+  memory: 512M
+  instances: 1
+  host: cf-firebase
+  path: target/firebase-boot-0.0.1-SNAPSHOT.jar
+
